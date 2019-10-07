@@ -177,9 +177,6 @@ urlpatterns = [
 
 ]
 ```
-
-## WRITE VIEWS THAT PULL DATA FROM THE DATABASE
-
 ## TIME FOR TEMPLATES
 
 Create a templates/polls directory in your polls app - by convention, DjangoTemplates looks for a templates subdirectory in each of the **INSTALLED_APPS**.
@@ -198,7 +195,7 @@ Create a templates/polls directory in your polls app - by convention, DjangoTemp
 
 {% endif %}
 ```
-## LET'S UPDATE OUR VIEWS
+## LET'S UPDATE OUR VIEWS TO PULL FROM OUR DATABASE
 ```
 from django.shortcuts import render
 
